@@ -1,0 +1,66 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 15px 10%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.nav-bar h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+.nav-bar .nav-bar-btn{
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.nav-bar .nav-bar-btn:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.nav-bar svg{
+    color: white;
+}
+
+.nav-bar-btns{
+    position: fixed;
+    top: 20vh;
+    right: 0;
+    height: 20vh;
+    padding: 10% 10px;
+    min-width: 60%;
+    background-color: rgb(72, 171, 115);
+    transition: all 1s ease;
+    transform: translate(100%, 0);
+    z-index: 11;
+}
+
+.menu-icon{
+    top: 77vh;
+    right: -10.5vw;
+}  
+
+.nav-bar-btns.opened{
+    transform: translate(0%, 0);
+}
+
+.nav-bar .nav-bar-btn{
+    width: 100%;
+    padding: 0 10%;
+    margin: 20px 0;
+}
+
+.close-icon{
+    float: left;
+}  
+
+img{
+    position: relative;
+    left: 40%;
+    width: 20%;
+}
