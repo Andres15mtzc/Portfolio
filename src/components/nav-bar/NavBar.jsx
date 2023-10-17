@@ -3,6 +3,9 @@ import './NavBar.css';
 import { Button, IconButton } from '@mui/material';
 import { Close } from '@mui/icons-material'
 
+import instagram from '../../Assets/instagram-logo.png';
+import linkedin from '../../Assets/linkedin-logo.png';
+
 export default class NavBar extends Component {
 
     constructor(props){
@@ -52,27 +55,23 @@ export default class NavBar extends Component {
                     <div className='left'>
                         <img src='https://dthezntil550i.cloudfront.net/sp/latest/sp2210222307207530022116305/1280_960/7c9ef945-f10b-4c00-beba-a53c8aa2a12b.png' className='iconDetails'></img>
                     </div>
-                    
                     <div className='bio'>
                         <h1>Andres Martinez</h1>
                         <h2><b>WHO AM I</b> I am a software developer based in Guadalajara, Mexico. I code in python, C++, C#, Java and more.</h2>
                         <h2><b>WHAT I DO</b> I'm currently work developing programs that use machine learning and data analytics.</h2>
                     </div>
                 </div>
-
                 <div className='container2'>
                     <div className='left'>
                         <h1>CONTACT</h1>
                         <h2>andresmtzc@gmail.com</h2>
-
                     </div>
                     <div className='right'>
                         <h1>SOCIALS</h1>
-
+                        <img src={instagram} alt='???'></img>
+                        <img src={linkedin} alt='???'></img>
                     </div>
-
                 </div>
-                
             </div>
             <Button variant="contained" size="large" className='menu-icon' onClick={this.handleOnClick}>About me</Button>
         </div>

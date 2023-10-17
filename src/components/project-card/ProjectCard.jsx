@@ -8,8 +8,7 @@ function ProjectCard({data}){
             <div className='info'>
                 <h1>{name}Ray Tracer</h1>
                 <h3>{description}This project was made by monkeys</h3>
-                <a href={link}>Link</a>
-
+                <div className='link'><a href={link}><b>LINK</b></a></div>
             </div>
         </li>
     )

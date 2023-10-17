@@ -20,13 +20,15 @@ function App() {
         Software Developer
         <h2>I am a Software developer specialized on Machine Learning and data analytics.<br/>Videogame developer as a hobbie</h2>
       </div>
-      <ul>
-        {
-          projects.map((project, index) => (
-           <ProjectCard key={index} data={project}/> 
-          ))
-        }
-      </ul>
+      <div className='list'>
+        <ul>
+          {
+            projects.map((project, index) => (
+              <ProjectCard key={index} data={project}/> 
+            ))
+          }
+        </ul>
+      </div>
     </div>
   );
 }

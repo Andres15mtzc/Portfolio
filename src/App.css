@@ -21,10 +21,18 @@
   --main-color: rgb(90, 155, 234);
 }
 
-ul{
+.list{
   position: relative;
   top: 15vh;
+  right: 5vw;
+  left: 5vw;
   display: flex;
+  justify-content: center;
+}
+
+ul{
+  position: relative;
+  display: block;
 }
 
 

@@ -29,26 +29,23 @@
     color: white;
 }
 
-
-
 .nav-bar-btns{
     position: fixed;
     top: 8vh;
     right: 0;
-    height: 30vh;
+    height: 72vh;
     width: 70vw;
-    padding: 10% 10px;
     min-width: 60%;
     background-color: rgb(129, 139, 166);
     transition: all 1s ease;
     transform: translate(100%, 0);
     z-index: 11;
-    border: 3px solid #a6b61c;
+    border: 3px solid black;
 
 }
 
 .menu-icon{
-    top: 77vh;
+    top: 60vh;
     right: -10.5vw;
 }  
 
@@ -67,30 +64,28 @@
 
 }  
 
-.nav-bar img{
+.container1 img{
     position: relative;
-    right:0.5%;
-    width:100%;
+    right: 0.5%;
+    width: 100%;
+    max-height: 55vh;
 }
 
 .nav-bar-btns .container1{
-    margin-bottom: 15px;
-    padding: 40px;
-    border: 1px solid #752464;
+    padding: 20px;
     clear:right;
+    height: 55vh;
 }
 
 .nav-bar-btns .left{
     float:left;
     width:40%;
-    border:1px solid #CEDCEA; 
-    padding:5px;
 }
+
 
 .nav-bar-btns .bio{
     float:left;
     width:55%;
-    border:1px solid #CEDCEA; 
     padding:5px;
 }
 .nav-bar-btns .container1 h1{
@@ -101,10 +96,18 @@
     letter-spacing:2px;
 }
 
-
 .nav-bar-btns .container2{
+    top: 80%;
     clear: left;
+}
+
+.container2 .right h1{
     background-color: rgb(21, 35, 72);
+}
+
+.container2 img{
+    width: 40px;
+    padding: 10px;
 }
 .nav-bar-btns b{
     font-weight: 600;
