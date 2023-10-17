@@ -16,25 +16,27 @@
 
 
 .info{
-    border-radius: 10px;
+    position: relative;
+    width: 90%;
     height: 40%;
+    left: 5%;
 }
 
 .project-card h1{
     margin: 0;
     color: rgb(26, 26, 26);
-
+    font-size: 130%;
 }
 
 .project-card h3{
     margin: 0;
     color: rgb(82, 82, 82);
     font-weight: 600;
+    font-size: 100%;
 }
 
 .info .link{
     position: relative;
     bottom: -35px;
-    right: 20px;
     text-align: right;
 }

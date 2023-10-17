@@ -2,12 +2,12 @@ import './App.css';
 import NavBar from './components/nav-bar/NavBar';
 import {useState} from "react";
 import ProjectCard from './components/project-card/ProjectCard';
-
+import background from "./Assets/background.jpg";
 
 function App() {
   const [projects, setProjects] = useState(
-    [{name: "", img: "", link:"", description:""},
-    {name: "", img: "", link:"", description:""},
+    [{name: "Raytracer", img: "", link:"https://github.com/Andres15mtzc/Raytracer.git", description:"A raytracer made in java that reproduce shadows, lights, reflexions and refractions."},
+    {name: "ThreadStates", img: "", link:"https://github.com/Andres15mtzc/ThreadStates.git", description:"This project shows the funcionality of a thread in Java."},
     {name: "", img: "", link:"", description:""},
     {name: "", img: "", link:"", description:""},
     {name: "", img: "", link:"", description:""}]
@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App" >
       <NavBar/>
+      <img className='background' src={background}/>
       <div className='banner'>
         <h1>Andres Martinez</h1>
         Software Developer

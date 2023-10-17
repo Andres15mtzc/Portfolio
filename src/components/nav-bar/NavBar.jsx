@@ -68,12 +68,12 @@ export default class NavBar extends Component {
                     </div>
                     <div className='right'>
                         <h1>SOCIALS</h1>
-                        <img src={instagram} alt='???'></img>
-                        <img src={linkedin} alt='???'></img>
+                        <a href="https://instagram.com/andresmtzc10?igshid=OGQ5ZDc2ODk2ZA=="><img src={instagram} alt='instagram'/></a>
+                        <a href="https://www.linkedin.com/in/andr%C3%A9s-mart%C3%ADnez-cabrera-562534241"><img src={linkedin} alt='linkedin'/></a>
                     </div>
                 </div>
             </div>
-            <Button variant="contained" size="large" className='menu-icon' onClick={this.handleOnClick}>About me</Button>
+            <Button variant="contained" size="large" className='menu-icon' onClick={this.handleOnClick}><b>About me</b></Button>
         </div>
         )
     }
