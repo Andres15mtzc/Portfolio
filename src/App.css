@@ -6,39 +6,25 @@
   height: 100vh;
 }
 
-img {
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  object-fit: scale-down;
-  /* object-position: 0 -500px; */
-}
 
 .banner{
   position: relative;
+  top:10vh;
   width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
+  height: 15%;
   text-align: center;
-  color: white;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent);
+  color: black;
 }
 
-.banner h1{
-  position: absolute;
-  top: 200px;
-  width: 70%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  font-weight: 800;
-  font-size: 3rem;
-}
 
 :root{
   --main-color: rgb(90, 155, 234);
+}
+
+ul{
+  position: relative;
+  top: 15vh;
+  display: flex;
 }
 
 
@@ -64,6 +50,8 @@ img {
     transform: scale(0, 1);
   }
 }
+
+
 
 span.ripple {
   position: absolute; 

@@ -4,7 +4,7 @@
     left: 0;
     width: 80%;
     padding: 15px 10%;
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +13,7 @@
 .nav-bar h1{
     margin: 0;
     font-size: 1.5rem;
+
 }
 .nav-bar .nav-bar-btn{
     color: rgba(255, 255, 255, 0.6);
@@ -26,6 +27,8 @@
 .nav-bar svg{
     color: white;
 }
+
+
 
 .nav-bar-btns{
     position: fixed;
@@ -59,7 +62,7 @@
     float: left;
 }  
 
-img{
+.nav-bar img{
     position: relative;
     left: 40%;
     width: 20%;
