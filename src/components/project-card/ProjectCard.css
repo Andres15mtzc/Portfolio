@@ -4,7 +4,7 @@
     height: 300px;
     width: 400px;
     border-radius: 10px;
-    background-color: gray;
+    background-color: rgb(224, 224, 224);
 }
 
 .project-card img{
@@ -15,14 +15,22 @@
 }
 
 .info{
-    background-color: gray;
     border-radius: 10px;
 }
 
 .project-card h1{
     margin: 0;
+    color: rgb(26, 26, 26);
+
 }
 
 .project-card h3{
     margin: 0;
+    color: rgb(82, 82, 82);
+    font-weight: 600;
+}
+
+.project-card a{
+    position: absolute;
+    bottom: 40px;
 }

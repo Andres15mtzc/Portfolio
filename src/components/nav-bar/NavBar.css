@@ -13,6 +13,7 @@
 .nav-bar h1{
     margin: 0;
     font-size: 1.5rem;
+    color: white;
 
 }
 .nav-bar .nav-bar-btn{
@@ -32,15 +33,18 @@
 
 .nav-bar-btns{
     position: fixed;
-    top: 20vh;
+    top: 8vh;
     right: 0;
-    height: 20vh;
+    height: 30vh;
+    width: 70vw;
     padding: 10% 10px;
     min-width: 60%;
-    background-color: rgb(72, 171, 115);
+    background-color: rgb(129, 139, 166);
     transition: all 1s ease;
     transform: translate(100%, 0);
     z-index: 11;
+    border: 3px solid #a6b61c;
+
 }
 
 .menu-icon{
@@ -60,10 +64,56 @@
 
 .close-icon{
     float: left;
+
 }  
 
 .nav-bar img{
     position: relative;
-    left: 40%;
-    width: 20%;
+    right:0.5%;
+    width:100%;
+}
+
+.nav-bar-btns .container1{
+    margin-bottom: 15px;
+    padding: 40px;
+    border: 1px solid #752464;
+    clear:right;
+}
+
+.nav-bar-btns .left{
+    float:left;
+    width:40%;
+    border:1px solid #CEDCEA; 
+    padding:5px;
+}
+
+.nav-bar-btns .bio{
+    float:left;
+    width:55%;
+    border:1px solid #CEDCEA; 
+    padding:5px;
+}
+.nav-bar-btns .container1 h1{
+    text-align: center;
+    font-size:50px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+
+
+.nav-bar-btns .container2{
+    clear: left;
+    background-color: rgb(21, 35, 72);
+}
+.nav-bar-btns b{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(240, 240, 240);
+}
+
+.nav-bar-btns h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
 }
