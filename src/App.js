@@ -8,8 +8,8 @@ function App() {
   const [projects, setProjects] = useState(
     [{name: "Raytracer", img: "", link:"https://github.com/Andres15mtzc/Raytracer.git", description:"A raytracer made in java that reproduce shadows, lights, reflexions and refractions."},
     {name: "ThreadStates", img: "", link:"https://github.com/Andres15mtzc/ThreadStates.git", description:"This project shows the funcionality of a thread in Java."},
-    {name: "", img: "", link:"", description:""},
-    {name: "", img: "", link:"", description:""},
+    {name: "Magic Ocean", img: "", link:"https://github.com/Andres15mtzc/Magic-Ocean.git", description:"A plugin that creates an ocean for Maya. You can define every asset."},
+    {name: "Chat-DistributedSystem", img: "", link:"https://github.com/Andres15mtzc/Chat-DistributedSystem.git", description:"An app for chating that use distributed computing to work with multiple computers."},
     {name: "", img: "", link:"", description:""}]
   )
   return (
