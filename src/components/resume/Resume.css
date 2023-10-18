@@ -1,4 +1,9 @@
-.nav-bar{
+.close-icon{
+    float: left;
+}  
+
+/* RESUME PANEL STYLE */
+.resume{
     position: fixed;
     top: 0;
     left: 0;
@@ -10,26 +15,62 @@
     align-items: center;
     z-index: 10;
 }
-.nav-bar h1{
+.resume h1{
+    color: rgba(0, 0, 0, 0);
+    font-size: 1px;
+}
+.resume-container{
+    position: fixed;
+    top: 1vh;
+    right: 0;
+    height: 94vh;
+    background-color: rgb(190, 190, 190);
+    transition: all 1s ease;
+    transform: translate(100%, 0);
+    z-index: 11;
+    border: 3px solid black;
+
+}
+.resume-btn{
+    top: 50vh;
+    right: -10.5vw;
+    width: 130px;
+    transition: all 1s ease;
+    transform: translate(0%, 0);
+    z-index: 11;
+}
+.resume-btn.opened{
+    transform: translate(100%, 0);
+}  
+.resume-container.opened{
+    transform: translate(0%, 0);
+}
+.resume-container img{
+    right: 0.5%;
+    height: 100%;
+}
+
+
+/* INFO PANEL STYLE */
+.info-panel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 15px 10%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.info-panel h1{
     margin: 0;
     font-size: 1.5rem;
     color: white;
 
 }
-.nav-bar .nav-bar-btn{
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0 20px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-.nav-bar .nav-bar-btn:hover{
-    color: rgba(255, 255, 255, 1);
-}
-.nav-bar svg{
-    color: white;
-}
-
-.nav-bar-btns{
+.info-box{
     position: fixed;
     top: 8vh;
     right: 0;
@@ -43,87 +84,72 @@
     border: 3px solid black;
 
 }
-
 .menu-icon{
     top: 60vh;
     right: -10.5vw;
+    width: 130px;
+    transition: all 1s ease;
+    transform: translate(0%, 0);
+    z-index: 11;
 }  
-
-.nav-bar-btns.opened{
+.menu-icon.opened{
+    transform: translate(100%, 0);
+}
+.info-box.opened{
     transform: translate(0%, 0);
 }
-
-.nav-bar .nav-bar-btn{
-    width: 100%;
-    padding: 0 10%;
-    margin: 20px 0;
-}
-
-.close-icon{
-    float: left;
-
-}  
-
 .container1 img{
     position: relative;
     right: 0.5%;
     max-height: 55vh;
     align-self: center;
 }
-
-.nav-bar-btns .container1{
+.info-box .container1{
     padding: 20px;
     clear:right;
     height: 55vh;
 }
-
 .container2 .left{
     float:left;
     width:50%;
     padding-left: 10px;
 }
-
 .container1 .left{
     float:left;
     width:25%;
     min-width: none;
 }
-
 .container1 .right{
     float:left;
     width:70%;
     margin: 1%;
 }
-
-.nav-bar-btns .bio{
+.info-box .bio{
     margin-left: 10%;
     margin-right: 10%;
 }
-.nav-bar-btns .container1 h1{
+.info-box .container1 h1{
     text-align: center;
     font-size:73px;
     text-transform:uppercase;
     font-weight: 700;
     letter-spacing:2px;
 }  
-
-.nav-bar-btns .container2{
+.info-box .container2{
     top: 80%;
     clear: left;
     background-color: rgb(21, 35, 72);
 }
-
 .container2 img{
     width: 40px;
     padding: 10px;
 }
-.nav-bar-btns b{
+.info-box b{
     font-weight: 600;
     font-size: 30px;
     color: rgb(240, 240, 240);
 }
-
-.nav-bar-btns h2{
+.info-box h2{
     font-weight: 500;
     font-size: 20px;
     color: rgb(240, 240, 240);
