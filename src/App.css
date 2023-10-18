@@ -9,13 +9,30 @@
 
 .banner{
   position: relative;
-  top:10vh;
-  width: 100%;
-  height: 25%;
+  top:10%;
+  width: 100vw;
+  height: 20%;
   text-align: center;
   color: white;
   background-color: rgba(81, 24, 96, 0.358);
 }
+
+.banner h1{
+  font-size: 7vh;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.banner h4{
+  position: relative;
+  font-size: 2vh;
+  letter-spacing: 7px;
+}
+
+.banner h2{
+  margin: 0;
+}
+
 
 .background{
   position: fixed;
@@ -29,7 +46,7 @@
 
 .list{
   position: relative;
-  top: 10vh;
+  top: 10%;
   right: 5vw;
   left: 5vw;
   display: flex;

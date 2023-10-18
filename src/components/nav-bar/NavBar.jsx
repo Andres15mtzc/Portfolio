@@ -5,6 +5,8 @@ import { Close } from '@mui/icons-material'
 
 import instagram from '../../Assets/instagram-logo.png';
 import linkedin from '../../Assets/linkedin-logo.png';
+import andresmtz from '../../Assets/andrespp.jpg';
+import github from '../../Assets/github.png';
 
 export default class NavBar extends Component {
 
@@ -50,15 +52,17 @@ export default class NavBar extends Component {
                 <IconButton className="close-icon" onClick={this.handleOnClick}>
                     <Close/>
                 </IconButton>
-                                
+                               
                 <div className='container1' >
                     <div className='left'>
-                        <img src='https://dthezntil550i.cloudfront.net/sp/latest/sp2210222307207530022116305/1280_960/7c9ef945-f10b-4c00-beba-a53c8aa2a12b.png' className='iconDetails'></img>
+                        <img src={andresmtz} className='iconDetails'></img>
                     </div>
-                    <div className='bio'>
-                        <h1>Andres Martinez</h1>
-                        <h2><b>WHO AM I</b> I am a software developer based in Guadalajara, Mexico. I code in python, C++, C#, Java and more.</h2>
-                        <h2><b>WHAT I DO</b> I'm currently work developing programs that use machine learning and data analytics.</h2>
+                    <div className='right'>
+                        <div className='bio'>
+                            <h1>Andres Martinez</h1>
+                            <div className='left'><h2><b>WHO AM I</b></h2></div> <div className='right'><h2>I am a software developer based in Guadalajara, Mexico. I code in python, C++, C#, Java and more.</h2></div>
+                            <div className='left'><h2><b>WHAT I DO</b></h2></div>  <div className='right'><h2>I'm currently work developing programs that use machine learning and data analytics.</h2></div>
+                        </div>
                     </div>
                 </div>
                 <div className='container2'>
@@ -68,8 +72,9 @@ export default class NavBar extends Component {
                     </div>
                     <div className='right'>
                         <h1>SOCIALS</h1>
-                        <a href="https://instagram.com/andresmtzc10?igshid=OGQ5ZDc2ODk2ZA=="><img src={instagram} alt='instagram'/></a>
-                        <a href="https://www.linkedin.com/in/andr%C3%A9s-mart%C3%ADnez-cabrera-562534241"><img src={linkedin} alt='linkedin'/></a>
+                        <a href="https://instagram.com/andresmtzc10?igshid=OGQ5ZDc2ODk2ZA==" target='_blank'><img src={instagram} alt='instagram'/></a>
+                        <a href="https://www.linkedin.com/in/andr%C3%A9s-mart%C3%ADnez-cabrera-562534241" target='_blank'><img src={linkedin} alt='linkedin'/></a>
+                        <a href="https://github.com/Andres15mtzc" target='_blank'><img src={github} alt='github'/></a>
                     </div>
                 </div>
             </div>

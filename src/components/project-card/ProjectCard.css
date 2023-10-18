@@ -26,10 +26,11 @@
     margin: 0;
     color: rgb(26, 26, 26);
     font-size: 130%;
+    text-indent: 1vw;
 }
 
 .project-card h3{
-    margin: 0;
+    margin: 0.2vh;
     color: rgb(82, 82, 82);
     font-weight: 600;
     font-size: 100%;
@@ -39,4 +40,5 @@
     position: relative;
     bottom: -35px;
     text-align: right;
+    margin: 0;
 }

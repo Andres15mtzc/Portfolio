@@ -18,8 +18,7 @@ function App() {
       <img className='background' src={background}/>
       <div className='banner'>
         <h1>Andres Martinez</h1>
-        Software Developer
-        <h2>I am a Software developer specialized on Machine Learning and data analytics.<br/>Videogame developer as a hobbie</h2>
+        <h4>Software Developer</h4>
       </div>
       <div className='list'>
         <ul>
