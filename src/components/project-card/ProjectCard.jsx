@@ -1,5 +1,7 @@
 import './ProjectCard.css';
 
+/* This jsx generates the card of a project with the data as an input */
+
 function ProjectCard({data}){
     const {name,img,link,description}=data;
     return(

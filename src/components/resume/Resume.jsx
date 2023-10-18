@@ -9,6 +9,8 @@ import linkedin from '../../Assets/linkedin-logo.png';
 import foto from '../../Assets/andrespp.jpg';
 import github from '../../Assets/github.png';
 
+/* This jsx generates the "About me" and "Resume" panels and buttons */
+
 export default class Resume extends Component {
 
     constructor(props){
